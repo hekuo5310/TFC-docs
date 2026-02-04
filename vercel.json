@@ -1,4 +1,4 @@
 {
-  "buildCommand": "uv pip install -r requirements.txt && uv run mkdocs build",
+  "buildCommand": "uv pip install mkdocs mkdocs-material && uv run mkdocs build",
   "outputDirectory": "site"
 }
